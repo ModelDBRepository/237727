@@ -1,0 +1,18 @@
+<html>
+This is the readme for the model file associated with the paper:<p/>
+
+Hoshino O, Zheng M, Watanabe K (2018) Perceptual judgments via sensory-motor interaction assisted by cortical GABA. J Comput Neurosci<p/>
+
+This c-program was contributed by O Hoshino. It was originally built using Microsoft Visual C++ and also works in Microsoft Visual Studio 2012 (create a new project, add the c file to it,
+and build and run).<p/>
+More usage instructions:<p/>
+
+<ol>
+<li/>Set input current to the sensory network by giving a proper value to "int_inp0_1".
+"onset_0" and "period_0" define its onset time and duration.
+<li/>Set input current to the motor network by giving a proper value to "int_inpV2".
+"onset_V2" and "period_V2" define its onset time and duration.
+<li/>Set times for output data by giving values "OUT" (starting time) and "PERIOD" (recording time-period).
+<li/>run. The default (as provided) settings of the model is for figure 2A.
+<li/>Output data files (***.dat) give membrane potentials of neurons and GABA concentrations.
+</ol>
